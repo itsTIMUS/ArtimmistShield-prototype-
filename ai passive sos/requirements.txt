@@ -1,0 +1,6 @@
+streamlit 
+pyaudio
+requests 
+sounddevice
+numpy
+

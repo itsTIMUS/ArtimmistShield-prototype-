@@ -168,6 +168,45 @@ For cloud deployment (e.g., on Render):
    ```
 3. Select an Appropriate Instance Type and deploy.
 
+
+   # Women Safety Device
+
+This project is a women safety device that records video, captures audio, tracks GPS location, and detects motion and falls using an MPU-6050 sensor. It is designed to work on both Raspberry Pi 3B+ and Windows laptops.
+
+## Features
+- **Video Recording:** Uses OV5647 (on Raspberry Pi) or the built-in webcam (on Windows).
+- **Audio Recording:** Records from a USB microphone (on Raspberry Pi) or the built-in microphone (on Windows).
+- **GPS Tracking:** Retrieves real-time location using the NEO-6M module (or a mock location on Windows).
+- **Fall Detection:** Uses the MPU-6050 sensor to detect sudden falls and trigger alerts.
+
+## Installation
+1. Clone the repository:
+```sh
+git clone https://github.com/your-repo/women-safety-device.git
+cd women-safety-device
+```
+2. Install dependencies:
+```sh
+pip install -r requirements.txt
+```
+
+## Usage
+Run the main script:
+```sh
+python main.py
+```
+
+## Hardware Requirements (For Raspberry Pi)
+- Raspberry Pi 3B+
+- OV5647 5MP 1080P IR-Cut Camera
+- NEO-6M GPS Module
+- Raspberry Pi USB Plug and Play Desktop Microphone
+- MPU-6050 Sensor
+
+## Notes
+- On Windows, the GPS module and MPU-6050 are simulated for testing.
+- Press 'q' to stop video recording early.
+
 ## Additional Information
 
 ### Team Member Information

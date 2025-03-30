@@ -170,7 +170,7 @@ For cloud deployment (e.g., on Render):
 3. Select an Appropriate Instance Type and deploy.
 
 
-   # Women Safety Device
+   # 4) Women Safety Device
 
 This project is a women safety device that records video, captures audio, tracks GPS location, and detects motion and falls using an MPU-6050 sensor. It is designed to work on both Raspberry Pi 3B+ and Windows laptops.
 

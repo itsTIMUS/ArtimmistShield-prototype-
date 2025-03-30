@@ -1,12 +1,13 @@
 # Project README:-
 
-This repository contains three distinct safety projects designed to improve personal security using modern technologies:
+This repository contains four distinct safety projects designed to improve personal security using modern technologies:
 
-1. **Artemisst Shield** (Women Safety Device)
+1. **Artemisst Shield** (Mobile app)
 2. **Safe Route Finder**
 3. **AI Passive SOS**
-
-## 1. Artemisst Shield – Women Safety Device
+4. **Women Safety Hardware Device**
+   
+## 1. Artemisst Shield – Mobile app
 
 ### Project Overview
 Artemisst Shield is an IoT-based SOS button that sends an emergency alert with the user's location and details when pressed. The system notifies nearby users and the nearest police station for rapid response, pairing seamlessly with our mobile app to provide real-time tracking.

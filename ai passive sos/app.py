@@ -9,9 +9,9 @@ from email.mime.text import MIMEText
 from threading import Thread
 
 # === AssemblyAI Configuration ===
-ASSEMBLYAI_API_KEY = "29f8ab7b44c64f58903439c9afe57ed4"  # Replace with your actual AssemblyAI API key
-ASSEMBLYAI_UPLOAD_URL = "https://api.assemblyai.com/v2/upload"
-ASSEMBLYAI_TRANSCRIPT_URL = "https://api.assemblyai.com/v2/transcript"
+ASSEMBLYAI_API_KEY = "your_key"  # Replace with your actual AssemblyAI API key
+ASSEMBLYAI_UPLOAD_URL = "upload_url"
+ASSEMBLYAI_TRANSCRIPT_URL = "transcript_url"
 
 # === Audio Configuration ===
 SAMPLE_RATE = 44100       # in Hz
